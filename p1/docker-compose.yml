@@ -1,0 +1,6 @@
+version: '2'
+services:
+  p1:
+    build:
+      context: .
+    command: echo 'hello from p1'
